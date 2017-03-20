@@ -8,26 +8,26 @@ h1{
 .box{
   border: 1px solid black;
   background-color: grey;
-  width: 80%;
+
   height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
+  margin: 10px;
   color: white;
+  position: relative;
   overflow: auto;
+
 }
 .box > div {
-  width: 20%;
+  width: auto%;
   height: auto;
   border: 1px solid black;
   float: right;
+  text-align: center;
 }
 p{
 	clear: both;
 	margin: 5%;
 }
 
-/* Simple Responsive Framework. */
 .row {
   width: 100%;
 }
