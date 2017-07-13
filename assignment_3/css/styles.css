@@ -1,0 +1,72 @@
+
+#header-nav {
+  background-color: yellow;
+}
+
+.navbar-brand{ 
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+}
+
+#nav-list a:hover {
+  background: white;
+}
+#nav-list > li{
+  text-align: center;
+  background-color: orange;
+}
+h1{
+  text-align: center;
+}
+body{
+  background-color:  #9fc5e8;
+}
+#chicken{
+  background-color: red;
+}
+#beef{
+  background-color: blue;
+}
+#pork{
+  background-color: green;
+
+}
+.menucontent{
+  text-align: center;
+}
+.menucontent #chicken, #beef, #pork{
+    padding: 0 10px 10px;
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .container-fluid {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .container-fluid {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
